@@ -1,0 +1,213 @@
+<!--
+  Name       : Alanoud Aleidi
+  Student ID : 241872
+  Course     : SE 324 – Web Application Development
+  Assignment : Assignment 1 – Winter 2026
+  Page       : Home Page (index.html)
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alanoud Aleidi" />
+    <meta
+      name="description"
+      content="An educational website about the Toyota Camry – overview, specifications, and user reviews."
+    />
+    <title>Toyota Camry – Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <h1><span>Toyota</span> Camry</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-text">
+          <h2>2026 Toyota Camry</h2>
+          <p>
+            Reliability you trust. Comfort you feel. Performance built for the
+            modern road.
+          </p>
+          <a href="#overview" class="hero-btn">Explore Now</a>
+        </div>
+        <figure class="hero-image">
+          <img
+            src="images/hero.jpg"
+            alt="2026 Toyota Camry sedan parked on a city street"
+            width="900"
+            height="520"
+          />
+        </figure>
+      </section>
+
+      <!-- Overview Section -->
+      <section id="overview" class="overview-section">
+        <h2 id="overview-heading">Overview</h2>
+        <p class="overview-text">
+          The <strong>Toyota Camry</strong> has long been recognized as one of
+          the world's best-selling mid-size sedans, earning the trust of drivers
+          since <time datetime="1982">1982</time>. Now in its ninth generation,
+          the <em>2026 Camry</em> brings together bold exterior styling, a
+          refined interior, and advanced hybrid technology. It continues to be a
+          favorite among drivers who appreciate <strong>reliability</strong>,
+          fuel efficiency, and everyday practicality. The
+          <dfn id="dfn-hybrid">hybrid</dfn> model combines a 2.5-litre
+          four-cylinder engine with an electric motor, offering impressive fuel
+          economy while delivering smooth performance on the road.
+        </p>
+        <a href="features.html" class="overview-btn">View Features</a>
+      </section>
+
+      <!-- Specifications -->
+      <section id="specifications" class="specs-section">
+        <h2 id="specs-heading">Specifications</h2>
+        <p class="specs-intro">
+          Compare the petrol and hybrid variants side by side.
+        </p>
+        <div class="specs-table-wrap">
+          <table class="specs-table">
+            <caption>
+              2026 Toyota Camry – Technical Specifications
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Specification</th>
+                <th scope="col">Petrol (2.5L)</th>
+                <th scope="col">Hybrid (2.5L)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Engine</td>
+                <td>2.5L 4-cylinder DOHC</td>
+                <td>2.5L 4-cylinder + Electric Motor</td>
+              </tr>
+              <tr>
+                <td>Horsepower</td>
+                <td>203 <abbr title="Horsepower">hp</abbr></td>
+                <td>208 hp (combined)</td>
+              </tr>
+              <tr>
+                <td>Torque</td>
+                <td>184 lb-ft</td>
+                <td>163 lb-ft</td>
+              </tr>
+              <tr>
+                <td>Transmission</td>
+                <td>8-speed automatic</td>
+                <td>
+                  <abbr title="Electronic Continuously Variable Transmission"
+                    >eCVT</abbr
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Fuel Economy (city/hwy)</td>
+                <td>28 / 39 <abbr title="Miles Per Gallon">mpg</abbr></td>
+                <td>51 / 53 mpg</td>
+              </tr>
+              <tr>
+                <td>Drivetrain</td>
+                <td>
+                  <abbr title="Front-Wheel Drive">FWD</abbr> /
+                  <abbr title="All-Wheel Drive">AWD</abbr>
+                </td>
+                <td>FWD / AWD</td>
+              </tr>
+              <tr>
+                <td>0–60 mph</td>
+                <td>7.4 seconds</td>
+                <td>7.0 seconds</td>
+              </tr>
+              <tr>
+                <td>Seating Capacity</td>
+                <td>5</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Cargo Volume</td>
+                <td>15.1 cu ft</td>
+                <td>15.1 cu ft</td>
+              </tr>
+              <tr>
+                <td>
+                  Starting
+                  <abbr title="Manufacturer's Suggested Retail Price"
+                    >MSRP</abbr
+                  >
+                </td>
+                <td>$27,415</td>
+                <td>$30,145</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- User Reviews -->
+      <section id="reviews" class="reviews-section">
+        <h2 id="reviews-heading">User Reviews</h2>
+        <p class="reviews-intro">
+          Real experiences from Toyota Camry owners around the world.
+        </p>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <blockquote>
+              <q
+                >I've owned my Camry Hybrid for two years and the fuel savings
+                alone have paid for the price difference. Incredibly smooth and
+                quiet on the highway.</q
+              >
+            </blockquote>
+            <p class="reviewer-name"><cite>— Omar Al-Rashid</cite></p>
+          </div>
+
+          <div class="review-card">
+            <blockquote>
+              <q
+                >The interior quality surprised me — it feels premium without
+                the premium price tag. Toyota Safety Sense gives real peace of
+                mind on long drives.</q
+              >
+            </blockquote>
+            <p class="reviewer-name"><cite>— Khalid Al-Mansouri</cite></p>
+          </div>
+
+          <div class="review-card">
+            <blockquote>
+              <q
+                >Reliable as ever. 80,000 miles and not a single major issue.
+                The resale value is also fantastic compared to competitors.</q
+              >
+            </blockquote>
+            <p class="reviewer-name"><cite>— Layla Al-Hassan</cite></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <time datetime="2026">2026</time> Toyota Camry Educational Site
+      </p>
+    </footer>
+  </body>
+</html>
